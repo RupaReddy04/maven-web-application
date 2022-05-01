@@ -21,7 +21,7 @@ spec:
         - name: mavenwebappcontainer
           image: rupareddy2022/maven-web-application:VERSION
           ports:
-            - containerPort: 8080
+          - containerPort: 8080
           resources:
             requests:
               cpu: 200m
